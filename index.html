@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variklio valdymas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Variklio Valdymo Sąsaja</h1>
+        <canvas id="rpmGauge" width="300" height="150"></canvas>
+        <div class="status">
+            <p>Statusas: <span id="status">Išjungtas</span></p>
+            <p>Greitis: <span id="speed">0</span> RPM</p>
+        </div>
+        <div class="controls">
+            <button id="startBtn">Pradėti</button>
+            <button id="stopBtn">Sustabdyti</button>
+            <button id="increaseBtn">Padidinti Greitį</button>
+            <button id="decreaseBtn">Sumažinti Greitį</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
